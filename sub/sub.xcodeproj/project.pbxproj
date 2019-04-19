@@ -14,6 +14,7 @@
 		E196599C2269714000115056 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E196599A2269714000115056 /* LaunchScreen.storyboard */; };
 		E19659A72269714000115056 /* subTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19659A62269714000115056 /* subTests.swift */; };
 		E19659B22269714000115056 /* subUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19659B12269714000115056 /* subUITests.swift */; };
+		E19659C0226971D200115056 /* sub2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19659BF226971D200115056 /* sub2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E19659AD2269714000115056 /* subUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = subUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19659B12269714000115056 /* subUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subUITests.swift; sourceTree = "<group>"; };
 		E19659B32269714000115056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19659BF226971D200115056 /* sub2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sub2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E19659852269713F00115056 = {
 			isa = PBXGroup;
 			children = (
+				E19659BF226971D200115056 /* sub2.swift */,
 				E19659902269713F00115056 /* sub */,
 				E19659A52269714000115056 /* subTests */,
 				E19659B02269714000115056 /* subUITests */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E19659942269713F00115056 /* ViewController.swift in Sources */,
+				E19659C0226971D200115056 /* sub2.swift in Sources */,
 				E19659922269713F00115056 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
